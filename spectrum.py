@@ -9,11 +9,11 @@ def cspectrum(n,m,x,p):
         p: confidence for red or white noise (e.g. 0.01 for 99%)
 
     Output variables:
-        ol(0:m): frequency array
-        tl(0:m): periodic array  
-        sl(0:m): power spectrum. Its sum from 0 to m is 1.
-        st(0:m): (1-p) confidence upper limit of red or white noise spectrum
-        strw(0:m): spectrum density of red or white noise 
+        ol: frequency array
+        tl: periodic array  
+        sl: power spectrum. Its sum from 0 to m is 1.
+        st: (1-p) confidence upper limit of red or white noise spectrum
+        strw: spectrum density of red or white noise 
 
     Usage:
         See sanity check in main or just run this script.
